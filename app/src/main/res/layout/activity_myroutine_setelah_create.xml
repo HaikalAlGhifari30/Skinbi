@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_style"
+    tools:context=".myroutine_setelah_create_Activity">
+
+    <ImageView
+        android:id="@+id/back14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:contentDescription="back"
+        android:onClick="back"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Edit"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView115"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView115"
+        app:strokeColor="#EF5DA8"
+        app:strokeWidth="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView66"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundcorner"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:layout_constraintTop_toBottomOf="@+id/imageView65"
+        app:srcCompat="@drawable/wardahaloe" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundcorner"
+        app:layout_constraintStart_toStartOf="@+id/imageView56"
+        app:layout_constraintTop_toBottomOf="@+id/imageView56"
+        app:srcCompat="@drawable/wardahlighteningbeauty" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundcorner"
+        app:layout_constraintStart_toStartOf="@+id/imageView55"
+        app:layout_constraintTop_toBottomOf="@+id/imageView55"
+        app:srcCompat="@drawable/wardahhydra" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundcorner"
+        app:layout_constraintStart_toStartOf="@+id/textView100"
+        app:layout_constraintTop_toBottomOf="@+id/textView100"
+        app:srcCompat="@drawable/slides_2_1656152024" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Everyday"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView111"
+        app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="4 Steps"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView105"
+        app:layout_constraintTop_toBottomOf="@+id/textView105" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="4 Steps"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView105"
+        app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Wardah"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView65"
+        app:layout_constraintTop_toTopOf="@+id/imageView65" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Wardah"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView66"
+        app:layout_constraintTop_toTopOf="@+id/imageView66" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Wardah"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView56"
+        app:layout_constraintTop_toTopOf="@+id/imageView56" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Wardah"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView55"
+        app:layout_constraintTop_toTopOf="@+id/imageView55" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natural Daily Aloe Moisturizer Cream"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/textView102"
+        app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hydra Rose Petal Infused Toner"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/textView106"
+        app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Lightening Oil - Infused Micellar Water"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/textView104"
+        app:layout_constraintTop_toBottomOf="@+id/textView104" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunscreen SPF 30"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/textView108"
+        app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="08 : 00 am"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView115"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Morning Routine"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/back14"
+        app:layout_constraintTop_toBottomOf="@+id/back14" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:background="@drawable/roundcornerpinksamping"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView55"
+        app:layout_constraintEnd_toStartOf="@+id/imageView55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView55" />
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:background="@drawable/roundcornerpinksamping"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView56"
+        app:layout_constraintStart_toStartOf="@+id/textView114"
+        app:layout_constraintTop_toTopOf="@+id/imageView56" />
+
+    <TextView
+        android:id="@+id/textView175"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:background="@drawable/roundcornerpinksamping"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+        app:layout_constraintStart_toStartOf="@+id/textView141"
+        app:layout_constraintTop_toTopOf="@+id/imageView65" />
+
+    <TextView
+        android:id="@+id/textView176"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:background="@drawable/roundcornerpinksamping"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView66"
+        app:layout_constraintStart_toStartOf="@+id/textView175"
+        app:layout_constraintTop_toTopOf="@+id/imageView66" />
+
+    <ImageView
+        android:id="@+id/imageView68"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView114"
+        app:layout_constraintEnd_toEndOf="@+id/textView114"
+        app:layout_constraintStart_toStartOf="@+id/textView114"
+        app:layout_constraintTop_toTopOf="@+id/textView114"
+        app:srcCompat="@drawable/baseline_check_25" />
+
+    <ImageView
+        android:id="@+id/imageView69"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView141"
+        app:layout_constraintEnd_toEndOf="@+id/textView141"
+        app:layout_constraintStart_toStartOf="@+id/textView141"
+        app:layout_constraintTop_toTopOf="@+id/textView141"
+        app:srcCompat="@drawable/baseline_check_25" />
+
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView175"
+        app:layout_constraintEnd_toEndOf="@+id/textView175"
+        app:layout_constraintStart_toStartOf="@+id/textView175"
+        app:layout_constraintTop_toTopOf="@+id/textView175"
+        app:srcCompat="@drawable/baseline_check_25" />
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView176"
+        app:layout_constraintEnd_toEndOf="@+id/textView176"
+        app:layout_constraintStart_toStartOf="@+id/textView176"
+        app:layout_constraintTop_toTopOf="@+id/textView176"
+        app:srcCompat="@drawable/baseline_check_25" />
+</androidx.constraintlayout.widget.ConstraintLayout>

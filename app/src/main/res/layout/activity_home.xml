@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_style"
+    tools:context=".Home_Activity">
+
+    <Button
+        android:id="@+id/btnhomeskingoal"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EF5DA8"
+        android:text="Set goals"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView202"
+        app:layout_constraintEnd_toEndOf="@+id/textView202"
+        app:layout_constraintStart_toStartOf="@+id/textView202"
+        app:strokeColor="#EF5DA8"
+        app:strokeWidth="1dp"
+        tools:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnhomeaddproduct"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EF5DA8"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView205"
+        app:layout_constraintEnd_toEndOf="@+id/textView205"
+        app:layout_constraintStart_toStartOf="@+id/textView205"
+        app:strokeColor="#EF5DA8"
+        app:strokeWidth="1dp"
+        tools:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnhomeskintype"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EF5DA8"
+        android:text="Quiz"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView206"
+        app:layout_constraintEnd_toEndOf="@+id/textView206"
+        app:layout_constraintStart_toStartOf="@+id/textView206"
+        app:strokeColor="#EF5DA8"
+        app:strokeWidth="1dp"
+        tools:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnhomedailylog"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EF5DA8"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView207"
+        app:layout_constraintEnd_toEndOf="@+id/textView207"
+        app:layout_constraintStart_toStartOf="@+id/textView207"
+        app:strokeColor="#EF5DA8"
+        app:strokeWidth="1dp"
+        tools:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/textView198"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Good Afternoon, Nurul"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView199"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundcorner"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView198" />
+
+    <TextView
+        android:id="@+id/textView207"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:background="@drawable/roundcorner"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView206"
+        app:layout_constraintStart_toStartOf="@+id/textView206"
+        app:layout_constraintTop_toTopOf="@+id/textView205" />
+
+    <TextView
+        android:id="@+id/textView202"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundcorner"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView199" />
+
+    <TextView
+        android:id="@+id/textView205"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundcorner"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView202"
+        app:layout_constraintStart_toStartOf="@+id/textView202"
+        app:layout_constraintTop_toBottomOf="@+id/btnhomeskingoal" />
+
+    <TextView
+        android:id="@+id/textView206"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/roundcorner"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/textView202"
+        app:layout_constraintTop_toTopOf="@+id/textView202" />
+
+    <TextView
+        android:id="@+id/textView200"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="131dp"
+        android:background="@drawable/roundcorner"
+        android:gravity="center"
+        android:text="13"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView201" />
+
+    <TextView
+        android:id="@+id/textView201"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text=":"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView200"
+        app:layout_constraintStart_toEndOf="@+id/textView199"
+        app:layout_constraintTop_toTopOf="@+id/textView199" />
+
+    <TextView
+        android:id="@+id/textView208"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Add Product"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView205"
+        app:layout_constraintStart_toStartOf="@+id/textView205"
+        app:layout_constraintTop_toTopOf="@+id/textView205" />
+
+    <TextView
+        android:id="@+id/textView210"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Your Skin Goals"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView202"
+        app:layout_constraintStart_toStartOf="@+id/textView202"
+        app:layout_constraintTop_toTopOf="@+id/textView202" />
+
+    <TextView
+        android:id="@+id/textView209"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Find Your Skin Type"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView206"
+        app:layout_constraintStart_toStartOf="@+id/textView206"
+        app:layout_constraintTop_toTopOf="@+id/textView206" />
+
+    <TextView
+        android:id="@+id/textView211"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Daily Log"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView207"
+        app:layout_constraintStart_toStartOf="@+id/textView207"
+        app:layout_constraintTop_toTopOf="@+id/textView207" />
+
+    <ImageView
+        android:id="@+id/imageView74"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomeskintype"
+        app:layout_constraintEnd_toEndOf="@+id/textView206"
+        app:layout_constraintStart_toStartOf="@+id/textView206"
+        app:layout_constraintTop_toBottomOf="@+id/textView209"
+        app:srcCompat="@drawable/_551181" />
+
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomeskingoal"
+        app:layout_constraintEnd_toEndOf="@+id/textView202"
+        app:layout_constraintStart_toStartOf="@+id/textView202"
+        app:layout_constraintTop_toBottomOf="@+id/textView210"
+        app:srcCompat="@drawable/_064484" />
+
+    <ImageView
+        android:id="@+id/imageView76"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomedailylog"
+        app:layout_constraintEnd_toEndOf="@+id/textView207"
+        app:layout_constraintStart_toStartOf="@+id/textView207"
+        app:layout_constraintTop_toBottomOf="@+id/textView211"
+        app:srcCompat="@drawable/_136021" />
+
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomeaddproduct"
+        app:layout_constraintEnd_toEndOf="@+id/textView205"
+        app:layout_constraintStart_toStartOf="@+id/textView205"
+        app:layout_constraintTop_toBottomOf="@+id/textView208"
+        app:srcCompat="@drawable/pngtreeskincare_product_set_sun_screen_6509932" />
+
+    <TextView
+        android:id="@+id/textView212"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/roundcornerpinksampingnavbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView213"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Home"
+        android:textColor="#EE5DA7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView86"
+        app:layout_constraintStart_toEndOf="@+id/imageView86"
+        app:layout_constraintTop_toTopOf="@+id/imageView86" />
+
+    <ImageView
+        android:id="@+id/homeroutine"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:onClick="routine"
+        app:layout_constraintBottom_toBottomOf="@+id/homeskin"
+        app:layout_constraintEnd_toStartOf="@+id/homeprofile"
+        app:layout_constraintStart_toEndOf="@+id/homeskin"
+        app:layout_constraintTop_toTopOf="@+id/homeskin"
+        app:srcCompat="@drawable/clockpink"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView86"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView212"
+        app:layout_constraintStart_toStartOf="@+id/textView212"
+        app:layout_constraintTop_toTopOf="@+id/textView212"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/homeskin"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:onClick="skin"
+        app:layout_constraintBottom_toBottomOf="@+id/textView213"
+        app:layout_constraintStart_toEndOf="@+id/textView213"
+        app:layout_constraintTop_toTopOf="@+id/textView213"
+        app:srcCompat="@drawable/facewomanpink"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/homeprofile"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="profile"
+        app:layout_constraintBottom_toBottomOf="@+id/homeroutine"
+        app:layout_constraintEnd_toEndOf="@+id/textView212"
+        app:layout_constraintTop_toTopOf="@+id/homeroutine"
+        app:srcCompat="@drawable/pinkprofile"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules=".@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Skintusiast"
+        tools:targetApi="31">
+        <activity
+            android:name=".onboarding"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_your_skintype_4_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".edit_profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".myroutine_setelah_create_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".myroutine_create_new_routine"
+            android:exported="false" />
+        <activity
+            android:name=".myroutine_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".My_Skin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_daily_log_2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_daily_log_1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_add_product_desciption"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_add_product_3_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_add_product_2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_add_product_1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_your_skintype_done_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_your_skintype_3_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_your_skintype_2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_your_skintype_1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_skin_goal_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Camera_Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".signup_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Signin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Start_Logo_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Activity"
+            android:exported="false" />
+    </application>
+
+</manifest>

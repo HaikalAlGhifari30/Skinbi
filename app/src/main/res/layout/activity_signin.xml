@@ -32,11 +32,11 @@
         android:text="Login to continue"
         android:textColor="#000000"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/textemailsign"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/textView3"
+        android:id="@+id/textemailsign"
         android:layout_width="340dp"
         android:layout_height="48dp"
         android:layout_marginStart="20dp"
@@ -56,7 +56,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="20dp"
         android:background="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/textpasssign"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
@@ -94,7 +94,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnregiscamera" />
 
     <EditText
-        android:id="@+id/textView4"
+        android:id="@+id/textpasssign"
         android:layout_width="340dp"
         android:layout_height="48dp"
         android:layout_marginStart="20dp"
@@ -177,14 +177,6 @@
         app:strokeWidth="1dp"
         tools:cornerRadius="20dp" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
-        app:srcCompat="@drawable/btn_google_light_normal__9" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -196,15 +188,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/tik_tok_logo_33089" />
+        app:srcCompat="@drawable/btn_google_light_normal__9" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:srcCompat="@drawable/logo_facebookpng_32204" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

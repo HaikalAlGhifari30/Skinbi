@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@drawable/roundcornerpinkdikit"
     tools:context=".profile_Activity">
 
     <ScrollView
@@ -127,7 +127,7 @@
                 android:layout_width="300dp"
                 android:layout_height="170dp"
                 android:layout_marginTop="29dp"
-                android:background="@drawable/roundcornerpinkdikit"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btneditprofile" />
@@ -137,7 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:text="10/12/2000"
+                android:text="-"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="@+id/textView190"
@@ -148,7 +148,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:text="18"
+                android:text="-"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="@+id/textView192"
@@ -183,7 +183,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:text="Meti Island"
+                android:text="-"
                 android:textColor="#000000"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="@+id/textView118"

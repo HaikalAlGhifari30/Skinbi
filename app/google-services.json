@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648862113720",
+    "project_id": "skinbi",
+    "storage_bucket": "skinbi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648862113720:android:ee6f314796634b26bdb94d",
+        "android_client_info": {
+          "package_name": "com.example.skinbiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648862113720-vcjccvjll5cltdpald7dd9b1aj2teal7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3dFrRetO4BRap0ATxQEEbjDqp6TGxoDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648862113720-vcjccvjll5cltdpald7dd9b1aj2teal7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

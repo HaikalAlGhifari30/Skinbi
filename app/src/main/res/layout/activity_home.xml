@@ -76,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Good Afternoon, Nurul"
+        android:text="You can do it!!"
         android:textColor="#000000"
         android:textSize="20dp"
         android:textStyle="bold"
